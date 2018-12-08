@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'echo \'Hello World!\''
+        sh '/data/maven3/apache-maven-3.1.1/bin/mvn clean install '
       }
     }
   }
